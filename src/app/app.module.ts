@@ -15,10 +15,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     TabsPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp, {
-      mode: 'ios',
-      swipeBackEnabled: true
-    })
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
